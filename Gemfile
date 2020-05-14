@@ -5,6 +5,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.1'
 
+gem 'bcrypt', '>= 3.1.7'
 gem 'bootsnap', '>= 1.4.5', require: false
 gem 'bootstrap-sass', '>= 3.4.1'
 gem 'jbuilder', '>= 2.9.1'
