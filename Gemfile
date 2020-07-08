@@ -8,6 +8,8 @@ ruby '2.7.1'
 gem 'bcrypt', '>= 3.1.7'
 gem 'bootsnap', '>= 1.4.6', require: false
 gem 'bootstrap-sass', '>= 3.4.1'
+gem 'bootstrap-will_paginate', '>= 0.0.10'
+gem 'faker', '>= 1.4.2'
 gem 'jbuilder', '>= 2.9.1'
 gem 'puma', '>= 3.12.2'
 gem 'rails', '>= 6.0.2.1'
@@ -15,6 +17,7 @@ gem 'rubocop', require: false
 gem 'sass-rails', '>= 5.1.0'
 gem 'turbolinks', '>= 5.2.0'
 gem 'webpacker', '>= 4.0.7'
+gem 'will_paginate', '>= 3.0.7'
 group :development, :test do
   gem 'byebug', '>= 11.0.1', platforms: %i[mri mingw x64_mingw]
   gem 'sqlite3', '>= 1.4.1'
