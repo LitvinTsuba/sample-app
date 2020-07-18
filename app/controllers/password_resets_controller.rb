@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 class PasswordResetsController < ApplicationController
+  def edit; end
+
   def new; end
 
   def create
@@ -15,6 +17,4 @@ class PasswordResetsController < ApplicationController
       render 'new'
     end
   end
-
-  def edit; end
 end
