@@ -13,6 +13,8 @@ gem 'faker', '>= 1.4.2'
 gem 'jbuilder', '>= 2.9.1'
 gem 'puma', '>= 3.12.2'
 gem 'rails', '>= 6.0.2.1'
+gem 'image_processing', '>=1.9.3'
+gem 'mini_magick', '>=4.9.5'
 gem 'active_storage_validations', '>=0.8.2'
 gem 'rubocop', require: false
 gem 'sass-rails', '>= 5.1.0'
